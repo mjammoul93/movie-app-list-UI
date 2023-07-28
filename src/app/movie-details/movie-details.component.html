@@ -1,0 +1,10 @@
+<div class="container">
+    <div *ngIf="movie">
+    <div class="movie-details-container" [style.backgroundImage]="'url(' + getImageUrl(movie.backdrop_path) + ')'"></div>
+      <h1>{{ movie.title }}</h1>
+      <p>Release Date: {{ movie.release_date }}</p>
+      <p>{{ movie.overview }}</p>
+      
+      <button (click)="onSaveClick()" class="btn btn-primary">Save</button>
+    </div>
+  </div>

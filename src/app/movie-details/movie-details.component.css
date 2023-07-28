@@ -1,0 +1,8 @@
+.movie-details-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;  
+    padding: 20px;
+    color: white;  
+  }
